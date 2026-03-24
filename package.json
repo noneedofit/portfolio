@@ -37,7 +37,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@img/sharp-darwin-arm64": "^0.34.5",
     "@tailwindcss/typography": "^0.5.10",
     "@vcarl/remark-headings": "^0.1.0",
     "@vercel/og": "^0.2.0",
@@ -55,5 +54,17 @@
     "typed.js": "^2.1.0",
     "unist-util-visit": "^4.1.2",
     "vite-imagetools": "^5.1.2"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "darwin",
+        "linux"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    }
   }
 }
