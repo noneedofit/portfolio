@@ -8,18 +8,13 @@ import preprocess from 'svelte-preprocess';
 const config = {
   extensions: ['.svelte', ...mdsvexConfig.extensions],
   preprocess: [
-    preprocess({
-      postcss: true
-    }),
+    preprocess({ postcss: true }),
     vitePreprocess(),
     mdsvex(mdsvexConfig)
   ],
-
   kit: {
-    adapter: adapter({ strict: true, precompress: true }),
-    prerender: {
-      entries: ['*', '/sitemap.xml', '/rss.xml']
-    }
+    adapter: adapter(),
+    prerender: { entries: ['*', '/sitemap.xml', '/rss.xml'] }
   }
 };
 
