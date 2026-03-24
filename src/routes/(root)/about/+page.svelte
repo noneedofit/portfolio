@@ -9,7 +9,7 @@
   <meta name="description" content="About {name} — CS & Bio Sciences at BITS Pilani." />
 </svelte:head>
 
-<div class="mx-auto flex w-full max-w-3xl flex-col gap-12 px-6 py-24">
+<div class="mx-auto flex w-full max-w-3xl flex-col gap-12 px-6 py-12 md:py-24">
   <!-- Intro -->
   <section use:reveal={{ delay: 100 }}>
     <h1 class="text-4xl font-[800] text-rosePine-text">About</h1>

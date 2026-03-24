@@ -81,22 +81,22 @@
 </svelte:head>
 
 <section
-  class="flex flex-col items-center justify-center gap-0 px-8 py-24 md:m-auto md:h-screen md:w-[70%] md:p-0"
+  class="flex flex-col items-center justify-center gap-0 px-6 py-16 md:m-auto md:h-screen md:w-[70%] md:p-0"
 >
   <!-- svelte-ignore a11y-mouse-events-have-key-events -->
   <div class="flex w-full flex-col items-center justify-center md:flex-row gap-12">
-    <div class="w-full text-7xl font-[800] leading-tight text-rosePine-text">
+    <div class="w-full text-5xl md:text-6xl lg:text-7xl font-[800] leading-tight text-rosePine-text">
       <h1>
         {firstName}
       </h1>
       <h1>
         {lastName}
       </h1>
-      <p class="mt-4 text-2xl font-medium text-rosePine-subtle leading-normal">{bio}</p>
+      <p class="mt-4 text-xl md:text-2xl font-medium text-rosePine-subtle leading-normal">{bio}</p>
       <div class="mt-2"></div>
-      <p class="text-xl font-light text-rosePine-iris"><i>» sui generis.</i></p>
+      <p class="text-lg md:text-xl font-light text-rosePine-iris"><i>» sui generis.</i></p>
     </div>
-    <div class="terminal">
+    <div class="terminal w-full max-w-full overflow-hidden text-sm md:text-base">
       <pre>
 <strong>~</strong> dpg --status
 
@@ -111,7 +111,7 @@ pkgs      <a href={githubURL}>gh</a>, <a href={linkedinURL}>li</a>, <a href="mai
     </div>
   </div>
 </section>
-<div class="m-6 flex flex-grow flex-col gap-8 pb-16 sm:m-auto sm:w-3/5">
+<div class="m-6 flex flex-grow flex-col gap-8 pb-16 sm:m-auto md:w-[70%]">
   <section class="w-full">
     <div use:reveal={{ delay: 100 }} class="mx-0 mb-8 flex items-center justify-between gap-8 p-0">
       <span class="text-xl text-rosePine-iris">featured projects</span>

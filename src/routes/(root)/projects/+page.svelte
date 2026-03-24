@@ -63,7 +63,7 @@
   <meta name="description" content="Projects by {name}" />
 </svelte:head>
 
-<div class="mx-auto flex w-full max-w-3xl flex-col gap-8 px-6 py-24">
+<div class="mx-auto flex w-full max-w-3xl flex-col gap-8 px-6 py-12 md:py-24">
   <div class="mb-4">
     <h1 class="text-4xl font-[800] text-rosePine-text">Projects</h1>
     <p class="mt-2 text-lg text-rosePine-subtle">i try</p>
