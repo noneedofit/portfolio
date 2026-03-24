@@ -1,0 +1,10 @@
+export const firstName = 'Dhruv P.';
+export const lastName = 'Goswami';
+export const name = `${firstName} ${lastName}`;
+export const githubUsername = 'noneedofit';
+export const githubURL = `https://github.com/${githubUsername}`;
+export const email = 'mail@dpgg.in';
+export const linkedinURL = 'https://linkedin.com/in/dhruvpgoswami';
+export const website = 'https://dpgg.in/';
+export const bio = `tuning bits and thoughts until they hum`;
+export const dob = '2006-03-10'; // PLACEHOLDER: replace with actual date of birth

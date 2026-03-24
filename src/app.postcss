@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import './prism.css';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-y: overlay;
+    font-family: 'Sitka Text', Georgia, 'Times New Roman', Times, serif;
+    @apply bg-rosePine-base text-rosePine-text;
+  }
+
+  /* change scrollbar */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  h1 {
+    font-family: 'Cinzel Decorative', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  article h1, h2, h3 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .social {
+    width: 2rem;
+    height: 2rem;
+    stroke-width: 2;
+    cursor: pointer;
+    @apply text-rosePine-text hover:text-rosePine-love;
+  }
+}

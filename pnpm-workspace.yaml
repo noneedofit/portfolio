@@ -1,0 +1,5 @@
+allowBuilds:
+  '@sveltejs/kit': false
+  esbuild: false
+  sharp: false
+  svelte-preprocess: false
